@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Robinhood Scroll
+@namespace      https://github.com/Lithovox
+@version        1.0.0
+@description    Adds a scrollbar to Robinhood's sidebar
+@author         Lithovox
+@homepageURL    https://github.com/Lithovox
+@license        Unlicense
+==/UserStyle== */
+
+@-moz-document domain("robinhood.com") {
+    .ReactVirtualized__Grid.ReactVirtualized__List { /* I hope this doesn't break anything else */
+        overflow-y: scroll; /* Just in case */
+        scrollbar-width: thin; /* Set to "auto" instead of "thin" for a normal desktop size scrollbar */
+    }
+}
