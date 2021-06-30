@@ -1,5 +1,5 @@
 # Robinhood-Scroll
-Usercss to add a scrollbar to the Robinhood sidebar
+Usercss to add a scrollbar to the Robinhood sidebar.
 
 ### Installation
 Install the [Stylus extension](https://add0n.com/stylus.html)
